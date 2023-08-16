@@ -485,20 +485,75 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.-right-48 {
+  right: -12rem;
+}
+.-top-60 {
+  top: -15rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.hidden {
+  display: none;
+}
+.h-full {
+  height: 100%;
+}
+.min-h-\[780px\] {
+  min-height: 780px;
+}
+.min-w-\[582px\] {
+  min-width: 582px;
+}
+.max-w-6xl {
+  max-width: 72rem;
+}
+.max-w-laptop {
+  max-width: 1440px;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
 .font-plexBold {
   font-family: IBMPlexSans-bold, Arial, sans-serif;
 }
 .font-plexSans {
   font-family: IBMPlexSans-Regular, Arial, sans-serif;
 }
-.text-4xl {
-  font-size: 5.5rem;
-  line-height: 1;
-  letter-spacing: -0.727px;
+.text-2xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.455px;
 }
-.text-xl {
-  font-size: 2rem;
-  line-height: 1.25;
+.text-sm {
+  font-size: 1rem;
+  line-height: 1.625;
+  letter-spacing: -0.18px;
+}
+.tracking-normal {
+  letter-spacing: 0em;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(25 24 38 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -511,3 +566,134 @@ video {
     src: url("../assets/fonts/IBMPlexSans-Bold.ttf") format("truetype");
 }
 
+@media (min-width: 768px) {
+
+  .md\:-left-96 {
+    left: -24rem;
+  }
+
+  .md\:-right-10 {
+    right: -2.5rem;
+  }
+
+  .md\:-top-10 {
+    top: -2.5rem;
+  }
+
+  .md\:-top-60 {
+    top: -15rem;
+  }
+
+  .md\:col-span-9 {
+    grid-column: span 9 / span 9;
+  }
+
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:min-h-\[1108px\] {
+    min-height: 1108px;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
+  }
+
+  .md\:min-w-\[1283px\] {
+    min-width: 1283px;
+  }
+
+  .md\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .md\:gap-2\.5 {
+    gap: 0.625rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: -0.727px;
+  }
+
+  .md\:text-base {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:text-4xl {
+    font-size: 5rem;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:-left-72 {
+    left: -18rem;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
+  }
+
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .xl\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
+  .xl\:min-h-\[2058px\] {
+    min-height: 2058px;
+  }
+
+  .xl\:w-\[312px\] {
+    width: 312px;
+  }
+
+  .xl\:min-w-\[1913px\] {
+    min-width: 1913px;
+  }
+
+  .xl\:gap-8 {
+    gap: 2rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.25rem;
+    line-height: 1.7;
+  }
+}

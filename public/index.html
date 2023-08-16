@@ -1,35 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Equalizer landing page | coded by Bart Erkamp</title>
-</head>
-<body class="font-plexSans">
-
-  <h1 class="font-plexBold text-4xl">We make your music sound extraordinary.</h1>
-
-  <h2 class="font-plexBold text-xl">Heading 2</h2>
-
-  A system audio equalizer specifically designed for Android and iOS. Freely tune the
-  way your music sounds with a professional grade parametric EQ & volume mixer. Control 
-  bass, mids, treble, gain control, reverb, and more!
-
-  Premium EQ
-
-  Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
-  your listening experience to a whole new level and access all our incredible features!
-
-  $4 / month
-
-  iOS Download
-  Android Download
-
-  All rights reserved © Equalizer 2021
-  Have any problems? Contact us via social media or email us at equalizer@example.com
-
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Equalizer landing page | coded by Bart Erkamp</title>
+    </head>
+    <body class="relative mx-auto h-full max-w-laptop font-plexSans text-black">
+        <!-- background image -->
+        <div>
+            <picture>
+                <source srcset="/assets/images/bg-main-desktop.png" media="(min-width: 1024px)" />
+                <source srcset="/assets/images/bg-main-tablet.png" media="(min-width: 640px)" />
+                <source srcset="/assets/images/bg-main-mobile.png" />
+                <img
+                    src="/assets/images/bg-main-mobile.png"
+                    alt="Responsive Image"
+                    class="absolute -right-48 -top-60 min-h-[780px] min-w-[582px] md:-left-96 md:-top-60 md:min-h-[1108px] md:min-w-[1283px] xl:-left-72 xl:min-h-[2058px] xl:min-w-[1913px]" />
+            </picture>
+        </div>
+        <!-- background pattern -->
+        <div>
+            <img
+                class="absolute hidden md:-right-10 md:-top-10 md:block md:w-64 xl:right-0 xl:w-[312px]"
+                src="/assets/images/bg-pattern-1.svg"
+                alt="" />
+        </div>
+        <div class="c-wrapper mx-auto max-w-6xl">
+            <header>
+                <div class="c-logo mb-16 px-6 pt-10 md:mb-24 md:px-10 md:pt-16 xl:mb-32">
+                    <img src="/assets/images/logo.svg" alt="" />
+                </div>
+                <div
+                    class="c-hero relative px-6 md:grid md:grid-cols-12 md:gap-2.5 md:px-10 xl:gap-8">
+                    <div class="md:col-span-9">
+                        <h1
+                            class="relative mb-5 font-plexBold text-2xl md:mb-6 md:text-3xl lg:text-4xl xl:mb-10">
+                            We make your music sound extraordinary.
+                        </h1>
+                        <p class="text-sm tracking-normal md:text-base xl:text-lg">
+                            A system audio equalizer specifically designed for Android and iOS.
+                            Freely tune the way your music sounds with a professional grade
+                            parametric EQ & volume mixer. Control bass, mids, treble, gain control,
+                            reverb, and more!
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </body>
 </html>
