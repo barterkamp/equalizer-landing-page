@@ -54,14 +54,18 @@ module.exports = {
                 },
             ],
             '4xl': [
-                '5.3rem',
+                '5rem',
                 {
                     lineHeight: '1',
                     letterSpacing: '-1px',
                 },
             ],
         },
-        extend: {},
+        extend: {
+            maxWidth: {
+                laptop: '1440px',
+            },
+        },
     },
     plugins: ['prettier-plugin-tailwindcss'],
 };
