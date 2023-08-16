@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="styles.css" />
         <title>Equalizer landing page | coded by Bart Erkamp</title>
     </head>
-    <body class="relative mx-auto h-full max-w-laptop font-plexSans text-black">
+    <body
+        class="relative mx-auto h-full max-w-laptop font-plexSans text-sm tracking-normal text-black md:text-base xl:text-lg">
         <!-- background image -->
         <div>
             <picture>
@@ -27,19 +28,20 @@
                 src="/assets/images/bg-pattern-1.svg"
                 alt="" />
         </div>
-        <div class="c-wrapper mx-auto max-w-6xl">
+        <!-- start of site content -->
+        <div class="c-wrapper mx-auto max-w-[1110px]">
             <header>
-                <div class="c-logo mb-16 px-6 pt-10 md:mb-24 md:px-10 md:pt-16 xl:mb-32">
+                <div class="c-logo mb-16 px-6 pt-10 md:mb-24 md:px-10 md:pt-16 xl:mb-32 xl:px-0">
                     <img src="/assets/images/logo.svg" alt="" />
                 </div>
                 <div
-                    class="c-hero relative px-6 md:grid md:grid-cols-12 md:gap-2.5 md:px-10 xl:gap-8">
+                    class="c-hero relative px-6 md:grid md:grid-cols-12 md:gap-2.5 md:px-10 xl:gap-8 xl:px-0">
                     <div class="md:col-span-9">
                         <h1
                             class="relative mb-5 font-plexBold text-2xl md:mb-6 md:text-3xl lg:text-4xl xl:mb-10">
                             We make your music sound extraordinary.
                         </h1>
-                        <p class="text-sm tracking-normal md:text-base xl:text-lg">
+                        <p>
                             A system audio equalizer specifically designed for Android and iOS.
                             Freely tune the way your music sounds with a professional grade
                             parametric EQ & volume mixer. Control bass, mids, treble, gain control,
@@ -48,6 +50,62 @@
                     </div>
                 </div>
             </header>
+            <main>
+                <section class="relative mt-40 md:mt-[250px] md:px-10 lg:mt-[321px] lg:px-0">
+                    <div class="flex min-h-[600px] justify-center rounded-2xl bg-black">
+                        <div>
+                            <img
+                                class="w-68 md:absolute md:-top-8 md:left-1/2 md:-translate-x-1/2 lg:-top-6 lg:left-[345px] lg:w-[312px] lg:-translate-x-0"
+                                src="/assets/images/bg-pattern-2.svg"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div>
+                        <img
+                            class="absolute -top-24 left-1/2 w-52 -translate-x-1/2 md:-top-32 md:left-[5.5rem] md:w-[270px] md:-translate-x-0 lg:-top-52 lg:left-28 lg:w-[312px]"
+                            src="/assets/images/illustration-app.png"
+                            alt="" />
+                    </div>
+                    <!-- card -->
+                    <section
+                        class="c-card absolute top-96 rounded-2xl bg-orange-red px-8 py-12 text-white md:right-28 md:top-40 md:w-[400px] md:px-12 lg:right-[95px] lg:top-[110px] lg:w-[446px] lg:px-[56px] lg:pb-[48px] lg:pt-[58px]">
+                        <h2 class="mb-3 font-plexBold text-xl text-white lg:mb-5">Premium EQ</h2>
+                        <p class="mb-[36px] text-white">
+                            Get expert-level control with a robust equalizer, volume mixer, and
+                            spatial audio. Take your listening experience to a whole new level and
+                            access all our incredible features!
+                        </p>
+                        <div class="c-billing mb-8 flex items-center gap-4">
+                            <span class="font-plexBold text-3xl">$4</span>
+                            <span class="text-lg">/ month</span>
+                        </div>
+                        <button
+                            type="button"
+                            class="mb-4 inline-flex w-full cursor-pointer items-center justify-center gap-1.5 rounded-2xl bg-black py-[20px] font-plexBold duration-200 hover:bg-cyan focus:bg-cyan active:bg-yellow-orange">
+                            <svg
+                                class="block"
+                                width="20"
+                                height="22"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.683 4.681c1.359 0 2.798.745 3.821 2.029-3.356 1.851-2.812 6.674.58 7.965-.467 1.04-.69 1.504-1.292 2.425-.839 1.285-2.02 2.886-3.486 2.897-1.302.014-1.637-.852-3.403-.842-1.766.009-2.134.857-3.437.845C4 19.987 2.88 18.542 2.042 17.257-.302 13.667-.549 9.45.897 7.207c1.029-1.592 2.651-2.523 4.175-2.523 1.551 0 2.527.856 3.812.856 1.247 0 2.005-.859 3.8-.859ZM12.291 0c.178 1.215-.315 2.405-.968 3.246-.697.904-1.901 1.603-3.066 1.566-.213-1.163.332-2.36.995-3.167C9.978.756 11.224.074 12.291 0Z"
+                                    fill="#FCFAF9" />
+                            </svg>
+                            <p>IOS Download</p>
+                        </button>
+                        <button
+                            type="button"
+                            class="inline-flex w-full cursor-pointer items-center justify-center gap-1.5 rounded-2xl bg-white py-[20px] font-plexBold text-black duration-200 hover:bg-yellow-orange focus:bg-yellow-orange active:bg-yellow-orange">
+                            <svg width="17" height="20" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.362 6.638v8.35c0 .502-.334.836-.836.836h-.836v2.924c0 .669-.583 1.252-1.251 1.252-.67 0-1.252-.583-1.252-1.252v-2.924H7.515v2.924c0 .669-.583 1.252-1.252 1.252s-1.252-.583-1.252-1.252v-2.924h-.836c-.501 0-.836-.334-.836-.835v-8.35h10.023Zm2.088 0c.669 0 1.252.586 1.252 1.251v5.848c0 .668-.583 1.252-1.252 1.252s-1.252-.584-1.252-1.252V7.889c0-.665.583-1.25 1.252-1.25Zm-14.198 0c.669 0 1.252.586 1.252 1.251v5.848c0 .668-.583 1.252-1.252 1.252S0 14.405 0 13.737V7.889c0-.665.583-1.25 1.252-1.25ZM11.776.126a.4.4 0 0 1 .583 0 .401.401 0 0 1 0 .583l-1.085 1.084c.35.234.667.52.942.846.66.782 1.081 1.8 1.139 2.902l.002.034c.003.075.005.15.005.227H3.34c0-.076.002-.152.006-.227l.002-.034a4.908 4.908 0 0 1 1.138-2.902 4.52 4.52 0 0 1 .942-.846L4.343.71a.4.4 0 0 1 0-.583.4.4 0 0 1 .583 0l1.12 1.118.053.051c.664-.333 1.41-.499 2.24-.5h.024c.83.001 1.575.167 2.24.5l.052-.051ZM6.262 3.09a.626.626 0 1 0 0 1.252.626.626 0 0 0 0-1.252Zm4.178 0a.626.626 0 1 0 0 1.252.626.626 0 0 0 0-1.252Z"
+                                    fill="#191826" />
+                            </svg>
+                            <p>IOS Download</p>
+                        </button>
+                    </section>
+                </section>
+            </main>
         </div>
     </body>
 </html>

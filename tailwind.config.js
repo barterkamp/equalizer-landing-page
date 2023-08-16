@@ -65,6 +65,9 @@ module.exports = {
             maxWidth: {
                 laptop: '1440px',
             },
+            width: {
+                68: '17.5rem',
+            },
         },
     },
     plugins: ['prettier-plugin-tailwindcss'],
