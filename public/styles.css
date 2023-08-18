@@ -506,6 +506,9 @@ video {
 .top-96 {
   top: 24rem;
 }
+.z-10 {
+  z-index: 10;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -561,9 +564,6 @@ video {
 .w-52 {
   width: 13rem;
 }
-.w-68 {
-  width: 17.5rem;
-}
 .w-full {
   width: 100%;
 }
@@ -618,6 +618,9 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(252 250 249 / var(--tw-bg-opacity));
+}
+.fill-black {
+  fill: #191826;
 }
 .px-6 {
   padding-left: 1.5rem;
