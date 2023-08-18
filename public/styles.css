@@ -796,13 +796,13 @@ video {
 @font-face {
   font-family: IBMPlexSans-Regular;
 
-  src: url('/public/assets/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+  src: url('../public/assets/fonts/IBMPlexSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: IBMPlexSans-Bold;
 
-  src: url('/public/assets/fonts/IBMPlexSans-Bold.ttf') format('truetype');
+  src: url('../public/assets/fonts/IBMPlexSans-Bold.ttf') format('truetype');
 }
 
 .hover\:bg-cyan:hover {
@@ -1125,12 +1125,6 @@ video {
     font-size: 5rem;
     line-height: 1;
     letter-spacing: -1px;
-  }
-
-  .lg\:text-2xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    letter-spacing: -0.455px;
   }
 }
 
