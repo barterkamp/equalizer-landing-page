@@ -739,12 +739,8 @@ video {
   padding-top: 2.5rem;
 }
 
-.font-plexBold {
-  font-family: IBMPlexSans-bold, Arial, sans-serif;
-}
-
 .font-plexSans {
-  font-family: IBMPlexSans-Regular, Arial, sans-serif;
+  font-family: IBM Plex Sans, Arial, sans-serif;
 }
 
 .text-2xl {
@@ -775,6 +771,14 @@ video {
   line-height: 1.25;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
 .tracking-normal {
   letter-spacing: 0em;
 }
@@ -791,18 +795,6 @@ video {
 
 .duration-200 {
   transition-duration: 200ms;
-}
-
-@font-face {
-  font-family: IBMPlexSans-Regular;
-
-  src: url('../public/assets/fonts/IBMPlexSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: IBMPlexSans-Bold;
-
-  src: url('../public/assets/fonts/IBMPlexSans-Bold.ttf') format('truetype');
 }
 
 .hover\:bg-cyan:hover {

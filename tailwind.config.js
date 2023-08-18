@@ -10,8 +10,7 @@ module.exports = {
             black: '#191826',
         },
         fontFamily: {
-            plexSans: ['IBMPlexSans-Regular', 'Arial', 'sans-serif'],
-            plexBold: ['IBMPlexSans-bold', 'Arial', 'sans-serif'],
+            plexSans: ['IBM Plex Sans', 'Arial', 'sans-serif'],
         },
         fontSize: {
             sm: [
