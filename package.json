@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss styles/styles.css -o public/styles.css",
+    "dev": "npx tailwindcss -i ./styles/styles.css -o ./public/styles.css --watch",
     "prod": "cross-env NODE_ENV=production postcss styles/styles.css -o public/styles.css"
   },
   "author": "",
